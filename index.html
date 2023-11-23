@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="english.css" />
+    <link rel="stylesheet" href="./english.css" />
     <script>
       tailwind.config = {
         theme: {
@@ -23,17 +23,17 @@
   </head>
   <body class="bg-[#414140]">
     <div class="max-w-[600px] w-full mx-auto xl:max-w-[900px] bg-white">
-      <div class="bg-[url('/assets/img/herobg.png')] bg-cover bg-no-repeat">
+      <div class="bg-[url('./assets/img/herobg.png')] bg-cover bg-top bg-no-repeat">
         <div
           class="bg-[#EEECF8] h-[46px] sm:h-[57px] flex items-center justify-center rounded-b-[33px]"
         >
           <div class="w-[140px] h-[23px]">
-            <img src="/assets/img/englishlogo.png" alt="" />
+            <img src="./assets/img/englishlogo.png" alt="" />
           </div>
         </div>
-        <div class="mx-3 flex flex-col items-center gap-[8px] mt-[32px]">
+        <div class="mx-3 flex flex-col items-center gap-[8px] translate-y-[32px]">
           <div class="w-[78px] h-[78px]">
-            <img src="/assets/img/handemoji.png" alt="" />
+            <img src="./assets/img/handemoji.png" alt="" />
           </div>
           <h2
             class="text-[#30237B] urbanist text-[16px] sm:text-[20px] italic text-center font-semibold leading-[26px]"
@@ -42,7 +42,7 @@
           </h2>
         </div>
       </div>
-      <div class="mt-[28px] mx-5">
+      <div class="mt-[50px] mx-5">
         <h2
           class="text-[#30237B] urbanist text-[14px] sm:text-[18px] font-semibold leading-[23px]"
         >
@@ -73,7 +73,7 @@
         <div
           class="bg-[#EEECF8] px-5 rounded-[9.792px] flex items-center justify-center max-w-[290.153px] w-full h-[260.137px]"
         >
-          <img src="/assets/img/girlsimg.png" alt="" />
+          <img src="./assets/img/girlsimg.png" alt="" />
         </div>
         <div
           class="bg-[#EEECF8] rounded-[17.787px] max-w-[236.792px] w-full h-[260.137px] px-[10px] flex items-center"
@@ -81,7 +81,7 @@
           <div class="flex flex-col items-center gap-[11px]">
             <img
               class="w-[57px] h-[57px]"
-              src="/assets/img/archery.png"
+              src="./assets/img/archery.png"
               alt=""
             />
             <p
@@ -132,13 +132,13 @@
         <button
           onclick="myFunction()"
           type="submit"
-          class="sm:max-w-[255px] max-w-[204px] w-full h-[46px] border-[1.668px] items-center justify-center gap-[12px] flex border-dashed border-[#30237B] rounded-[13.34px]"
+          class="sm:max-w-[255px] bg-[#EEECF8] max-w-[204px] w-full h-[46px] border-[1.668px] items-center justify-center gap-[12px] flex border-dashed border-[#30237B] rounded-[13.34px]"
         >
           <input
           type="text"
             value=" Start100"
             id="myInput"
-            class="text-[#30237B]  outline-none  max-w-[100px] w-full  flex items-center justify-center urbanist text-[21px] font-medium leading-[21px]"
+            class="text-[#30237B] bg-[#EEECF8]  outline-none  max-w-[100px] w-full  flex items-center justify-center urbanist text-[21px] font-medium leading-[21px]"
           >
            
           </input>
