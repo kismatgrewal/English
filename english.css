@@ -6,3 +6,14 @@
 .inter {
   font-family: "Inter", sans-serif;
 }
+
+.ten:before {
+  content: "";
+  position: absolute;
+  border: 10px dashed #30237b;
+  top: -8px;
+  bottom: -8px;
+  left: -8px;
+  right: -8px;
+  border-radius: 13px;
+}
